@@ -8,6 +8,5 @@ function menuHandle() {
     });
 
     function myFunction() {
-      console.log("hello");
       document.querySelector(".navbar .menu").classList.toggle("active");
     }
