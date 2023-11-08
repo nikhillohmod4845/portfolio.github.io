@@ -83,9 +83,7 @@ section .title {
 }
   
 /*  Nav Logo Span Linear-Gradient  */
-.navbar .logo span {
-  color: #000;
-}
+
   
 .navbar .menu li {
   list-style: none;
@@ -94,7 +92,7 @@ section .title {
   
 .navbar .menu li a {
   display: block;
-  color: #000;
+  color: #fff;
   font-size: 18px;
   font-weight: 600;
   margin-left: 25px;
@@ -175,13 +173,13 @@ section .title {
   
 /*.............................About................................*/
 .about {
-  background-image: url(./About-page.png);
+  background-image: url(./newpngtree-luxury-black-and-golden-metallic-web-banner-vector-design-image_729544.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
   
 .about .title{
-  color: #000;
+  color: #fff;
 }
   
 .about .about-content .left {
@@ -209,7 +207,7 @@ section .title {
   
 .about .about-content .right .text{
   text-align: justify;
-  color: #000;
+  color: rgb(209, 161, 40);
   font-size: 25px;
 }
   
@@ -234,7 +232,7 @@ section .title {
   
 /*..............................Skills..........................*/
 .skills {
-  background: url(./Skills-page.png);
+  background: url(./Skill-page.png);
   background-size: cover;
   background-attachment: fixed;
   /* background: radial-gradient(#1064c4, rgb(10, 192, 122)); */
@@ -377,12 +375,13 @@ section .title {
   /*...................Contact.........................*/
 
 .contact {
-  background: url(./Contact-page.png);
+  background: url(./sale-295475-article-image-1623260463141.jpeg);
+  background-size: cover;
   background-attachment: fixed;
 }
   
 .contact .title{
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 
@@ -393,20 +392,20 @@ section .title {
 .contact .contact-content .text-1 {
   font-size: 30px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   margin-bottom: 10px;
 }
   
 .contact .contact-content .text {
   font-size: 30px;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   margin-bottom: 10px;
 }
   
 .contact .contact-content .left p {
   text-align: justify;
-  color: #fff;
+  color: rgb(255, 183, 1);
   font-weight: 600;
 }
   
@@ -551,15 +550,15 @@ section .title {
   transform: translate(0, -10px);
 }
   
-.social-menu ul li:nth-child(1) a:hover {
+.social-menu ul li:nth-child(1) a {
   background: linear-gradient(135deg, #F9CE34, #EE2A7B, #6228D7);
 }
   
-.social-menu ul li:nth-child(2) a:hover {
+.social-menu ul li:nth-child(2) a {
   background: linear-gradient(135deg, #0072b1, #0072b1, #0072b1);
 }
   
-.social-menu ul li:nth-child(3) a:hover {
+.social-menu ul li:nth-child(3) a {
   background: linear-gradient(135deg, #3b5990, #3b5998, #3b5998);
 }
   
@@ -575,12 +574,12 @@ section .title {
 footer {
   background: #111;
   padding: 6px 16px;
-  color: #888c8d;
+  color: #fff;
   text-align: center;
 }
   
 footer span a {
-  color: #eef0f2;
+  color: gold;
   text-decoration: none;
 }
   
